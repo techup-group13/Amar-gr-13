@@ -25,8 +25,8 @@
       </p>
       <img src="./image.png" />
     </div>
-    <div class="flex mx-16 py-16">
-      <div class="w-1/2">
+    <div class="md:flex mx-16 py-16">
+      <div class="md:w-1/2">
         <p class="text-5xl text-white font-bold mb-6">How it started</p>
         <p class="text-white text-lg">
           Welcome to our restaurant in Michigan, where we serve up delicious
@@ -44,7 +44,7 @@
         </p>
       </div>
       <div class="w-1/2 ml-6">
-        <div class="grid grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 gap-8">
           <div class="border-2 border-orange-300 p-4">
             <img src="./logo/icon1.svg" />
             <p class="text-lg text-white font-bold">Title</p>
@@ -92,20 +92,77 @@
       </div>
     </div>
 
-    <div class="border-2 border-orange-300 p-4 my-20 w-max mx-auto">
-      <p class="text-white">Get Directions</p>
+    <div class="border-2 border-orange-300 w-max my-20 mx-auto">
+      <p class="text-white py-3 px-4">Get Directions</p>
     </div>
-
-    <div class="flex">
+    <div class="flex items-center bg-gray-800">
       <div class="w-1/2 relative">
         <div
-          class="absolute top-0 z-10 w-full h-full bg-gradient-to-r from-black"
+          class="bg-gradient-to-r from-slate-800 absolute h-full w-full"
+        ></div>
+        <p
+          class="absolute text-5xl text-orange-300 font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
         >
-          dsa
-        </div>
-        <img src="sandwich.png" class="opacity-30 w-full" />
+          Working Hours
+        </p>
+        <img src="working-houers.jpg" alt="working-houers" class="w-full" />
       </div>
-      <div></div>
+      <div class="w-1/2">
+        <div class="flex items-center justify-center text-white space-x-8">
+          <div class="text-center space-y-4">
+            <p class="text-xl">Monday to Friday</p>
+            <p class="font-bold text-2xl">08:00 AM</p>
+            <p class="font-bold text-2xl">03:00 PM</p>
+          </div>
+          <div class="text-center space-y-4">
+            <p class="text-xl">Saturday</p>
+            <p class="font-bold text-2xl">08:00 AM</p>
+            <p class="font-bold text-2xl">04:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-white text-center text-5xl font-bold mt-28 mb-20">
+      Find Us
+    </div>
+    <div class="flex space-x-8">
+      <img src="image.map.jpg" alt="" />
+      <div class="space-y-6">
+        <div class="space-y-4">
+          <p class="text-orange-300 text-3xl">Contact:</p>
+          <p class="text-lg text-white">(518)-918-1284</p>
+        </div>
+        <div class="space-y-4">
+          <p class="text-orange-300 text-3xl">Address:</p>
+          <p class="text-lg text-white">
+            941 Main Street, Suite 201 <br />
+            Newport
+          </p>
+        </div>
+        <div class="space-y-4">
+          <p class="text-orange-300 text-3xl">Write Us:</p>
+          <p class="text-lg text-white">info@goodtaste.io</p>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="my-16">
+        <div class="h-px w-full bg-orange-300"></div>
+        <div class="flex justify-between pt-4">
+          <p class="text-white">© 2023 Good Taste | All rights reserved.</p>
+          <div class="flex space-x-3">
+            <a href="https://www.facebook.com/">
+              <img src="./logo/facebook.svg" alt="facebook" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src="./logo/instagram.svg" alt="instagram" />
+            </a>
+            <a href="https://www.tiktok.com/">
+              <img src="./logo/tiktok.svg" alt="tiktok" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
