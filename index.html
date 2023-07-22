@@ -10,7 +10,7 @@
     <div class="container mx-auto">
       <div class="flex items-center">
         <img src="logo/menu.svg" />
-        <div class="mx-auto flex space-x-5 text-white">
+        <div class="mx-auto md:flex space-x-5 text-white">
           <a class="avtive" href="#home">HOME</a>
           <a class="avtive" href="#home">ABOUT</a>
           <a class="avtive" href="#home">MENU</a>
@@ -18,14 +18,15 @@
         </div>
       </div>
     </div>
-    <div class="flex items-center justify-between pl-16">
-      <p class="text-8xl text-white font-bold">
-        But first,<br />
-        Food!
+    <div class="md:flex items-center justify-between md:pl-16">
+      <p
+        class="md:text-8xl text-4xl text-white font-bold items-center md:w-[528px]"
+      >
+        But first, Food!
       </p>
-      <img src="./image.png" />
+      <img src="./image.png" class="md:w-[375px] mt-8 mb-16" />
     </div>
-    <div class="md:flex mx-16 py-16">
+    <div class="md:flex mx-6 md:mx-16 py-16">
       <div class="md:w-1/2">
         <p class="text-5xl text-white font-bold mb-6">How it started</p>
         <p class="text-white text-lg">
@@ -43,7 +44,7 @@
           So come on down and join us for a meal you won't forget!
         </p>
       </div>
-      <div class="w-1/2 ml-6">
+      <div class="md:w-1/2 md:ml-6">
         <div class="grid md:grid-cols-2 gap-8">
           <div class="border-2 border-orange-300 p-4">
             <img src="./logo/icon1.svg" />
@@ -69,8 +70,12 @@
       </div>
     </div>
     <div class="justify-center items-center flex flex-col">
-      <p class="text-5xl text-white font-bold">Our Popular Menu</p>
-      <div class="flex items-center mt-12 space-x-8">
+      <p class="text-3xl md:text-5xl text-white font-semibold md:font-bold">
+        Our Popular Menu
+      </p>
+      <div
+        class="flex flex-col md:flex-row items-center mt-12 space-y-8 md:space-y-0 md:space-x-8 md:text-left text-center"
+      >
         <div>
           <img src="sallat.jpg" />
           <p class="text-white font-bold text text-lg items-center ml-2">
@@ -95,8 +100,8 @@
     <div class="border-2 border-orange-300 w-max my-20 mx-auto">
       <p class="text-white py-3 px-4">Get Directions</p>
     </div>
-    <div class="flex items-center bg-gray-800">
-      <div class="w-1/2 relative">
+    <div class="md:flex items-center bg-gray-800">
+      <div class="md:w-1/2 relative">
         <div
           class="bg-gradient-to-r from-slate-800 absolute h-full w-full"
         ></div>
@@ -105,10 +110,16 @@
         >
           Working Hours
         </p>
-        <img src="working-houers.jpg" alt="working-houers" class="w-full" />
+        <img
+          src="working-houers.jpg"
+          alt="working-houers"
+          class="md:w-[343px]"
+        />
       </div>
-      <div class="w-1/2">
-        <div class="flex items-center justify-center text-white space-x-8">
+      <div class="md:w-1/2 justify-center items-center flex flex-col">
+        <div
+          class="flex flex-col items-center justify-center text-white space-x-8"
+        >
           <div class="text-center space-y-4">
             <p class="text-xl">Monday to Friday</p>
             <p class="font-bold text-2xl">08:00 AM</p>
@@ -125,7 +136,7 @@
     <div class="text-white text-center text-5xl font-bold mt-28 mb-20">
       Find Us
     </div>
-    <div class="flex space-x-8">
+    <div class="md:flex space-x-8">
       <img src="image.map.jpg" alt="" />
       <div class="space-y-6">
         <div class="space-y-4">
